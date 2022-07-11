@@ -1,0 +1,212 @@
+/* import Font From Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Reset Web Default Styling */
+/* using universial selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Inport Fon-Family in Body Tag */
+body{
+font-family: 'Roboto', sans-serif;
+}
+/* First Header Styling */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 0px 0px 0px -50px;
+    position: relative;
+    right: 30px;
+}
+.language-sinup{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 60px;
+}
+.language-sinup select{
+    margin-right: 35px;
+    padding: 7px;
+    width: 92px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.language-sinup span{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 6px;
+    height: 36px;
+    width: 90px;
+    text-align: center;
+    cursor: pointer;
+}
+.option-items{
+    color: white;
+    background-color: gray;
+}
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/5fd505fa-f425-4a18-b3cc-00dd2638f541/d638b1fe-b44f-4cb3-b5d8-2106904c3be0/IN-en-20220704-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 120vh;
+}
+.document{
+    position:absolute;
+    top: 48%;
+    left: 36%;
+    text-align: center;
+    transform: translate(-50px,-50px);
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h3{
+    font-weight: 300;
+}
+.email-input{
+    position: relative;
+    top: 54%;
+    left: 31%;
+    transform: translate(-50px,-50px);
+    text-align: left;
+}
+.input-group{
+    /* text-align: center; */
+    position: relative;
+    right: 45px;
+}
+input{
+    width: 530px;
+    height: 65px;
+}
+.email-req{
+    display: block;
+    color: orange;
+    margin:5px 0px 0px -40px 
+}
+header{
+    border-bottom: 8px solid rgb(53, 53, 53);
+}
+/* section One styling */
+.section-container{
+    background-color: black;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-section1 h1{
+    color: white;
+    font-size: 50px;
+}
+.sub-section1 p{
+    color: white;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    border-bottom: 8px solid rgb(53, 53, 53);  
+}
+
+.sub-section2 img{
+    width: 504px;
+    height: 378px;
+}
+/* section Five */
+.section-container2{
+    background-color: black;
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-section10{
+    color: white;
+    position: relative;
+    bottom: 45px;
+}
+.sub-section10 ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.sub-section10 ul li{
+    background-color:#303030;
+    width: 800px;
+    margin-bottom: 10px;
+    margin-right: 39px;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.sub-section10 h1{
+    text-align: center;
+}
+.slid-top{
+    position: relative;
+    top: 108px;
+    left: 167px;
+}
+.section-five{
+        border-bottom: 8px solid rgb(53, 53, 53);    
+}
+/* footercontainer */
+.footer-container{
+    background-color: black;
+    color: gray;
+    height: 420px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.items div{
+    margin-right: 80px;
+}
+ul li{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+.p1{
+    position: relative;
+    top: 102px;
+    left: 254px;
+}
+.select select{
+    margin-right: 35px;
+    padding: 17px;
+    width: 120px;
+    text-align: center;
+    background-color: transparent;
+    color:gray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.select{
+    position: relative;
+    left: 240px;
+    top: 30px;
+}
